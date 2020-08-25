@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel = 'stylesheet' href = 'style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+
+</head>
+<body>
+<div class="dop-block1" >
+    <div class="block1">
+        <h3 class='h3'> Заполнить поля для получения данных с хэдхантера по API</h3>
+        <p> Необходимо заполните поля ниже  </p>
+    </div>
+
+</div>
+<br/>
+<div class="dop-block2" >
+    <div class="block2" >
+        <br/>
+            <table class="table table-bordered table-condensed">
+
+            <tr><th> вопрос </th><th>  ваш ответ </th>
+            <tr><td> специализация в Python </td> <td> <select  name="specialisation">
+                <option value ='1'>data scince</option>
+                <option value ='2'>mashine learning</option>
+                <option value ='2'>other</option>
+                   </select> </td>
+            <tr><td> зп от </td> <td> <select  name="sallary">
+                <option value ='1'>50000</option>
+                <option value ='2'>100000</option>
+                <option value ='3'>120000</option>
+            </select> </td>
+            <tr><td> город </td> <td> <select  name="location">
+                <option value ='1'>Оренбург</option>
+                <option value ='2'>Самара</option>
+                <option value ='3'>Москва</option>
+                <option value ='4'>Не имеет значения</option>
+            </select> </td>
+            <tr><td> удаленный режим работы </td> <td>  <input name = 'work_place' type = 'checkbox' value ='Yes'/>Yes </td>
+            </table>
+            <br/>
+            <p> ключевое слово для поиска</p>
+            <textarea name = 'comment' placeholder="Python"></textarea>
+            <br/>
+            <input name = 'enter' type = 'submit'  value = 'Send' />
+        </form>
+        <h4>Cпасибо за ваше внимание!</h4>
+        <a href = 'search.html'class="badge badge-primary">На страницу поиска</a>
+        <a href='contact.html' class="badge badge-primary">Контакты</a>
+    </div>
+</div>
+</body>
+</html>
